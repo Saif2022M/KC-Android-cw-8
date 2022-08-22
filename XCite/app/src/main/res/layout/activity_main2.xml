@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/KOKO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="90dp"
+        app:srcCompat="@drawable/nokia" />
+
+    <TextView
+        android:id="@+id/LOLO"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_below="@+id/KOKO"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="313dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/KNSHORO"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="يدعم شبكات الاتصال الـ 5G . السماعات الخارجية تأتي بصوت ستريو عالي و محترم . مقاوم للماء بشهادة معتمدة . الكاميرات تقدم تجربة ممتازة ولكن لا جديد بخلاف المستشعر الأفضل والثبات الميكانيكي الأفضل . ستحصل على أقوى أداء ممكن بفضل معالج الـ A15 Bionic المطور كلياً . أحدث نظام تشغيل IOS 15 مع ضمان تحديث النظام لفترة طويلة بعكس هواتف الأندرويد . شاشة كبيرة من نوع Super Retina XDR OLED تقدم تجربة فريدة من نوعها من حيث السطوع ودرجة تشبع الألوان مع دقة جيدة ."
+        android:textSize="20sp" />
+</RelativeLayout>
